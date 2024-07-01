@@ -40,12 +40,11 @@ return (
     <SmallBox text={"Teknologia konsultointipalvelut"}/>
     <SmallBox text={"SEO optimointi ja ylläpito"}/>
     <BigBox     text={"Verkkosivujen  sekä verkkokauppojen suunnittelu ja luominen "} />
-
+    <HugeBox text={"Jokainen projekti on uniikki joten myös hintakin - Neuvotellaan yhdessä hinta johon molemmat osapuolet ovat tyytyväisiä"}/>
 
     </div>
-    <div className="palvelutContainer"> 
-    <HugeBox text={"Jokainen projekti on uniikki joten myös hintakin - Neuvotellaan yhdessä hinta johon molemmat osapuolet ovat tyytyväisiä"}/>
-     </div>
+
+
     </div>
 )
 

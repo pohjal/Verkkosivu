@@ -1,19 +1,25 @@
 .smallBox{
     background-color: white;
     border-radius: 30px;
-    width: 17vw;
     height: 200px;
-    margin: 0 1vw; position: relative;
+position: relative;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
     flex-direction: column;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+
+    width: 300px;
 }
 .palvelutContainer{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+}
+
+.palvelutContainer * {
+    margin: 20px;
 }
 .hugeBox p, 
 .smallBox p, 
@@ -28,33 +34,28 @@
 .bigBox{
     background-color: white;
     border-radius: 30px;
-    width: 35vw;
     height: 200px;
-    margin: 0 1vw;
     position: relative;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
     flex-direction: column;
- 
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+    width: 600px;
 }
 
 .hugeBox{
     background-color: white;
     border-radius: 30px;
-    width: 73vw;
+    width: 1280px;
     height: 200px;
-    margin: 0 10px;
-    margin-top: 20px;
     position: relative;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
     flex-direction: column;
-
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
 }
 .heroOtsikko{
@@ -77,8 +78,24 @@
     margin-bottom: 30px;
 }
 
-@media (max-width: 1200px){
-    .hugeBox p, 
+@media (max-width: 1330px){
+.hugeBox p, 
+.smallBox p, 
+.bigBox p {
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+.hugeBox{
+    width: 640px;
+}
+.bigBox{
+    width: 640px;
+}
+
+}
+
+@media (max-width: 950px){
 .smallBox p, 
 .bigBox p {
   font-size: 10px;
@@ -86,4 +103,29 @@
 }
 }
 
+@media (max-width: 750px){
 
+
+.hugeBox , 
+.smallBox , 
+.bigBox {
+width: 300px;
+}
+}
+
+@media (max-width: 680px){
+
+    .hugeBox , 
+    .smallBox , 
+    .bigBox {
+    width: 200px;
+    }
+}
+
+@media (max-width: 500px){
+    .hugeBox , 
+    .smallBox , 
+    .bigBox {
+    width: 150px;
+    }
+}
