@@ -1,0 +1,161 @@
+
+#logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+}
+.navItem{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.navItem p:hover{
+    color: #A3A3A3;
+    transform: scale(1.1);
+}
+
+
+.headerContainer{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.contact{
+    width: 16%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 50px;
+    width: 20%;
+}
+.contact:hover{
+background-color: rgb(58, 54, 54);
+transform: scale(1.1); 
+}
+
+.contactButton{
+    width: 250px;
+    background-color: #FF7373;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 50px;
+    margin-top: 50px;
+}
+
+.contactButton:hover{
+    background-color: #E65252;
+    transform: scale(1.1); 
+}
+
+.logoContainer{
+    display: flex;
+    align-items: center;
+    width: 20%;
+}
+.navContainer{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content:space-around;
+    border-radius: 20px;
+    width: 40%;
+}
+
+.heroOtsikko{
+    font-size: 70px;
+}
+
+.heroContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 110px;
+ 
+}
+
+.leipateksti{
+    font-weight: normal;
+    color: #A3A3A3;
+    font-size: 40px;
+    width: 60%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+@media (max-width: 1200px){
+    .heroOtsikko{
+        font-size: 60px;
+    }
+
+    .leipateksti{
+        font-size: 30px; 
+    } 
+}
+
+
+@media (max-width: 1500px){
+    .heroOtsikko{
+        font-size: 55px;
+    }
+
+    .leipateksti{
+        font-size: 30px; 
+    } 
+}
+
+@media (max-width: 950px){
+
+    .headerContainer{
+        font-size: 10px;
+    }
+    .heroOtsikko{
+        font-size: 40px;
+    }
+
+    .leipateksti{
+        font-size: 30px; 
+    }
+    
+}
+
+
+@media (max-width: 760px){
+
+    .headerContainer{
+        font-size: 6px;
+    }
+    .navItem{
+    
+        height: 30px;
+    }
+    #logo{
+        height: 25px;
+        width: 25px;
+        border-radius: 20px;
+    }
+    .contact{
+
+        height: 30px;
+    }
+    .heroOtsikko{
+        font-size: 35px;
+    }
+
+    .leipateksti{
+        font-size: 30px; 
+    }
+
+    .heroContent{
+        margin-top: 70px;
+    }
+}

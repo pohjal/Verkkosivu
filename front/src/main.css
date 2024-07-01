@@ -1,0 +1,20 @@
+/* main.css */
+
+/* Reset some default browser styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set some global styles */
+  body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    background-color: #DEF0F7;
+    color: #333;
+  }
+
