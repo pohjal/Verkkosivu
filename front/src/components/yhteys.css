@@ -1,0 +1,94 @@
+.yhteysContainer{
+    display: flex;
+    margin-top: 100px;
+}
+
+
+
+.infoContainer, 
+.contactContainer{  
+display: flex;
+width: 50vw;
+justify-content: center;
+  text-align: center;
+    }
+    
+.infoContainer{
+        flex-direction: column;
+        align-items: center;  
+
+    
+    }
+.contactContainer{
+    width: 50vw;
+    
+}
+
+.lentokone{
+    width: 300px;
+    height: 300px;}
+
+.inputBox{
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid black;
+        width: 20vw;
+        height: 40px;
+        margin: 30px 10px 30px 10px;
+        max-width: 30vw;
+        min-width: 20vw;
+        max-height: 30vh;
+    }
+
+.contactText{
+    font-size: 40px;
+    margin-left: 40px;
+}
+.red{
+    color: red;
+}
+
+.contactform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formButton{
+    width: 250px;
+    background-color: #FF7373;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 50px;
+    margin-top: 50px;
+}
+@media (max-width: 1000px){
+    .lentokone{
+        width: 200px;
+        height: 200px;}
+        .contactText{
+            font-size: 20px;
+        }
+}
+
+@media (max-width: 700px){
+    .yhteysContainer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .infoContainer{
+        width: 80vw;
+    }
+    .inputBox{
+        width: 50vw;
+        height: 40px;
+        max-width: 50vw;
+    }
+    .contactContainer{
+        width: 80vw;
+    }
+
+}
