@@ -9,12 +9,23 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  html{
+    scroll-behavior: smooth;
+  }
   
   /* Set some global styles */
   body {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
-    background-color: #DEF0F7;
+    background: linear-gradient(to bottom, #DEF0F7, #FFFFFF);
     color: #333;
+ 
   }
+  a{  color: #333;
+    border: none;
+    text-decoration: none;
+  }
+
+
 

@@ -2,6 +2,8 @@ import Hero from "./components/hero"
 import Palvelut from "./components/palvelut"
 import Slider from "./components/slider"
 import Yhteys from "./components/yhteys"
+import Info from "./components/info"
+import Footer from "./components/footer"
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
    <Slider/>
    <Palvelut/>
    <Yhteys/>
+   <Info/>
+   <Footer/>
    </>
 
   )

@@ -1,5 +1,7 @@
 import "./yhteys.css"
 import  { useState } from 'react';
+
+
 const Yhteys = () => {
 
     const [form, setForm] = useState({
@@ -30,7 +32,7 @@ const Yhteys = () => {
     
 
     return (
-        <div className="yhteysContainer">
+        <div id="yhteys" className="yhteysContainer">
              <div className="infoContainer">
                 <h1 className="heroOtsikko">Ota yhteyttä</h1>
                 <p className="contactText"> <span className="red"> Jätä</span> yhteydenottopyyntö, niin suunnitellaan yhdessä juuri sinulle <span className="red">täydellinen</span> ratkaisu!</p>

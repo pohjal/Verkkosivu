@@ -32,7 +32,7 @@ return (
 const Palvelut = () => {
 return (
 
-<div className="palvelutSection">
+<div id="palvelut" className="palvelutSection">
     <div className="headerContainer">
    <h1 className="heroOtsikko">Palvelut</h1>
    </div>

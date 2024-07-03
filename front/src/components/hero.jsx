@@ -3,32 +3,36 @@ import logo from './logop.png';
 import "./hero.css";
 
 
-const NavItem = ({itemName}) => {
+const NavItem = ({itemName, section}) => {
     return (
         <div className='navItem'>
-            <p >{itemName}</p>
+             <a href={section}  >{itemName}</a>
+       
         </div>
         )
 }
 
 const Contact = () => {
     return(
-        <div className='contact' >Ota Yhteyttä</div>
+        // <div  className='contact' > Ota Yhteyttä</div>
+        // <div href="#palvelut" className='contact' > Ota Yhteyttä</div>
+        <a href="#yhteys" className='contact' >Ota Yhteyttä</a>
     )
 }
 
 const ContactButton = () => {
     return(
-        <div className='contactButton' >Ota Yhteyttä</div>
+       
+        <a href="#yhteys" className='contactButton' >Ota Yhteyttä</a>
     )
 }
 
 const Nav = () => {
     return (
         <div className='navContainer'>
-        <NavItem itemName="PALVELUT"/>
-        <NavItem itemName="TIETOA"/>
-        <NavItem itemName="BLOG"/>
+        <NavItem itemName="PALVELUT" section={"#palvelut"}/>
+        <NavItem itemName="TIETOA"section={"#tietoa"}/>
+        <NavItem itemName="BLOG" />
         </div>)
 }
 

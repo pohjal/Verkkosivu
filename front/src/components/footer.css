@@ -1,0 +1,121 @@
+.footerSection{
+    background-color: #DEF0F7;
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.footerContainer{
+display: flex;
+width: 80vw;
+flex-direction: column;
+justify-content: space-evenly;
+}
+
+.logoEmail{
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 50%;
+}
+
+.links{
+display: flex;
+align-items: center;
+justify-content: space-around;
+flex-direction: column;
+width: 20vw;
+height: 70%;
+}
+
+.contacts{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 40vw;
+    text-align: center;
+    height: 70%;
+}
+
+.topContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    height: 80%;
+}
+
+.bottomContainer{
+    border-top: solid 1px black;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    height: 20%;
+}
+
+.bottomText{
+    margin:0 20px 0  20px ;
+    font-size: 30px;
+}
+
+
+
+.logoContainerFooter{
+    display: flex;
+    align-items: center;
+
+}
+
+
+#logoFooter{
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+}
+#footerButton{
+    width: 40%;
+}
+
+
+@media (max-width: 1250px){
+
+    .bottomText{
+        font-size: 20px;
+    }
+    
+    
+}
+
+@media (max-width: 900px){
+
+    .footerSection{
+        height: 833px;
+    }
+    .topContainer{
+        flex-direction: column;
+    }
+
+    #footerButton{
+        height: 50px;
+        font-size: 10px;
+    }    
+}
+
+@media (max-width: 600px){
+
+    .bottomContainer a{
+        font-size: 10px;
+    }
+    
+
+    #footerButton{
+        height: 50px;
+        font-size: 7px;
+    }    
+}

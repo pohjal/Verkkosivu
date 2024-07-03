@@ -1,0 +1,178 @@
+.infoSection{
+
+    margin-bottom: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+}
+
+.infoLeft{
+    width: 40vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tiimi{
+    width: 400px;
+}
+
+.infoRight{
+    width: 40vw;   
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoHeader{
+    font-size: 50px;
+}
+
+.infoBox{
+    background-color: white;
+    border-radius: 30px;
+    height: 250px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+    width: 600px;
+    margin: 20px;
+    position: relative;
+    text-align: center;
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+
+.boxHeader{
+    position: absolute;
+    top: 3%; /* Adjust as needed */
+    left:45%; /* Adjust as needed */
+}
+
+.infoBox p {
+ margin: 0 40px 0;
+}
+
+@media (max-width: 1300px){
+    .boxHeader{
+        left:40%; /* Adjust as needed */
+    }
+    
+
+    .infoBox{
+        width: 400px;
+    }
+    .infoBox p {
+       font-size: 15px;
+       }
+       .infoHeader{
+           font-size: 40px;
+       }
+}
+
+@media (max-width: 900px){
+    .boxHeader{
+        left:40%; /* Adjust as needed */
+    }
+    
+
+    .infoBox{
+        width: 300px;
+    }
+    .infoBox p {
+       font-size: 10px;
+       }
+       .infoHeader{
+           font-size: 30px;
+       }
+}
+
+
+@media (max-width: 800px){
+
+    .infoSection{
+        margin-top: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        }
+    
+    .boxHeader{
+        left:40%; /* Adjust as needed */
+    }
+    .infoRight{
+        width: 50vw;
+    }
+
+    .infoBox{
+        width: 45vw;
+    }
+    .infoBox p {
+       font-size: 10px;
+       }
+       .infoHeader{
+           font-size: 30px;
+       }
+}
+
+@media (max-width: 800px){
+
+    .infoSection{
+        margin-bottom: 200px;
+    }
+
+    .boxHeader{
+        left:40%; /* Adjust as needed */
+    }
+    .infoRight{
+        width: 50vw;
+    }
+
+    .infoBox{
+        width: 45vw;
+    }
+    .infoBox p {
+       font-size: 10px;
+       }
+     .boxHeader{
+         font-size: 20px;
+         top: 5%;
+         left: 40%;
+     }
+}
+@media (max-width: 700px){
+    .infoSection{
+        margin-top: 250px;
+    }
+}
+
+@media (max-width: 650px){
+
+    .infoSection{
+        margin-top: 300px;
+    }
+
+    .boxHeader{
+        left:40%; /* Adjust as needed */
+    }
+    .infoRight{
+        width: 50vw;
+    }
+
+    .infoBox{
+        width: 45vw;
+    }
+    .infoBox p {
+       font-size: 7px;
+       }
+     .boxHeader{
+         font-size: 20px;
+         top: 5%;
+         left: 40%;
+     }
+}
